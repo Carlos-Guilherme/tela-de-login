@@ -1,0 +1,54 @@
+body {
+    background: linear-gradient(95deg,#4d1568, #811438);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.container {
+    background-color: rgba(76, 13, 92, 0.479);
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 10px black;
+}
+h1{
+    text-align: center;
+}
+input {
+    padding: 5px;
+    font-size: 15px;
+    text-align: center;
+    border: none;
+    outline: none;
+    background: rgba(0, 0, 0, 0.363);
+    border-radius: 5px;
+}
+button {
+    font-size: 15px;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    width: 100%;
+    background-color: dodgerblue;
+    color: white;
+    cursor: pointer;
+}
+@keyframes suave {
+    from {background-color: dodgerblue;}
+    to {background-color: deepskyblue;}
+}
+button:hover {
+    background-color: deepskyblue;
+    animation-name: suave;
+    animation-duration: 0.5s;
+
+}
+a {
+    color: white;
+
+}
